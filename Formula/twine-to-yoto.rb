@@ -4,11 +4,11 @@ class TwineToYoto < Formula
   version "1.13.0"
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.13.1/twine2yoto-macos-arm64-1.13.1.zip"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.14.0/twine2yoto-macos-arm64.zip"
+      sha256 "50e63d5d1f9dab7b458ed66bcdeb311c9f05ef9e1e19c55186668d28b9fbf72c"
     else
-      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.13.1/twine2yoto-macos-x64-1.13.1.zip"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.14.0/twine2yoto-macos-x64.zip"
+      sha256 "8e9c4e261e36cb045e6572062fd77ebd74f93b0080d775fd88cbf7e7106676db"
     end
   end
 
