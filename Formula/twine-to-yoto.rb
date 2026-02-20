@@ -1,15 +1,15 @@
 class TwineToYoto < Formula
   desc "Convert Twine/Twee documents to TweeJSON and YotoJSON"
   homepage "https://github.com/yotoplay/twine-to-yoto"
-  version "1.22.0"
+  version "1.23.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.22.0/twine2yoto-macos-arm64.zip"
-      sha256 "ce1b35530f0bba0714b9109a628518c951f6c85ffd898c4d106341fd081fc6c9"
+      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.23.0/twine2yoto-macos-arm64.zip"
+      sha256 "f20bbce5f2c016a1ea45cc594010a24d603e8d3d7283cb56c3e0cbd4dc8d6ac5"
     else
-      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.22.0/twine2yoto-macos-x64.zip"
-      sha256 "581e9e2090320de4208f4cd63a59ce8e175edaec79d83ae4050e4d6d57babd1a"
+      url "https://github.com/yotoplay/twine-to-yoto/releases/download/v1.23.0/twine2yoto-macos-x64.zip"
+      sha256 "9c8799da7b48db417948fcf182fc13608fba4430422f8169faab95498d2b1c5f"
     end
   end
 
